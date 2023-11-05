@@ -1,0 +1,430 @@
+/* Main Css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    width: 100%;
+    background: linear-gradient(to right,  #EE0979 0%,#FF6A00 100%);
+    border-radius: 30px;
+    border: none;
+    margin-top: 17px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: transparent;
+    border-color: orangered;
+    border:2px solid #ff4d00;
+}
+
+button:hover a{
+    color: orangered;
+}
+
+button a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 15px 10px;
+    padding-left: 35px;
+}
+
+/*Navbar Section*/
+
+.navbar{
+    background: linear-gradient(rgb(27, 25, 28)25%, rgba(45, 20, 54, 1)75%);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.start-nav{
+    padding-top: 13px;
+    padding-bottom: 13px;  
+    justify-content: center;
+}
+
+.start-nav h3{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.start-nav .nav-flag{
+    margin-right: 10px;
+}
+
+.start-nav h4{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-right: 10px;
+}
+
+.end-nav{
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.endnav-logo{
+    align-items: center;
+}
+
+.end-nav h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li:hover a{
+    color: orangered;
+}
+
+.end-nav ul li .blur-line{
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #ff4d00;
+    bottom: 145px;
+}
+
+.endnav-down{
+    margin-left: 10px;
+    width: 15px;
+    vertical-align: middle;
+}
+
+.listdown{
+    margin-left: 50px;
+}
+
+.endnav-bell{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.endnav-bell span{
+    position: absolute;
+    background-color: orangered;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 10px;
+    font-style: normal;
+    height: 14px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    bottom: 10px;
+    right: -17px;
+}
+
+.endnav-subtitle{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 10px;
+}
+
+
+
+/*Form Styles*/
+.form{
+    background: linear-gradient( #230E2B,rgba(56, 26, 66, 1));
+    padding-top: 170px;
+
+}
+
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-boxes{
+    gap: 20px;
+}
+
+.box1{
+    height: 246px;
+}
+
+.box1-content1{
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.box1{
+    padding: 30px 90px 30px 30px;
+    border-radius: 30px;
+    background: var(--bg-secondary, #1C0A22);
+}
+
+.box1 h4{
+    width: 105px;
+}
+
+.box2 h1{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.box2-bottom{
+    margin-top: 8px;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.box2-bottom img{
+    padding: 29px;
+    border: 1px solid #925FA4;
+    border-radius: 30px;
+}
+
+.box3{
+    color: #fff;
+    margin-top: 58px;
+}
+
+
+.form-box h4{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+input,select{
+    width: 320px;
+    height: 50px;
+    border-radius: 500px;
+    background-color: rgba(66, 32, 78, 1);
+    border: none;
+}
+
+::placeholder{
+    padding: 23px 30px;
+}
+
+.option{
+    color: #8B5D9A;
+}
+
+select{
+    color: #8B5D9A;
+    padding: 10px;
+}
+
+.namelabel.d-flex{
+    gap: 190px;
+    margin-bottom: 20px;
+}
+
+#day,#month,#sname{
+    width: 104px;
+}
+
+.datalabel{
+    gap: 106px;
+}
+
+.input{
+    display: none;
+}
+
+label img{
+    width: 24px;
+    
+}
+
+.pol{
+    margin-top: 20px;
+    gap: 190px;
+}
+
+.label{
+    padding: 14px 67px;
+    border-radius: 500px;
+    background-color: transparent;
+}
+
+.label-1{
+    border: 1px solid rgba(5, 117, 230, 1);
+}
+
+.label-2{
+    border: 1px solid rgba(236, 0, 140, 1);
+}
+
+#male:checked ~.label-1{
+    background: linear-gradient(rgba(5, 117, 230, 1), rgba(2, 27, 121, 1));
+}
+
+#female:checked ~.label-2{
+    background: linear-gradient(rgba(236, 0, 140, 1), rgba(252, 103, 103, 1));
+}
+
+.forminfo{
+    margin-top: 50px;
+}
+
+.forminfo label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.textarealabel{
+    display: flex;
+    align-items: flex-start;
+}
+
+textarea{
+    width: 320px;
+    height: 180px;
+    border-radius: 30px;
+    background: var(--input-inactive-bg, #42204E);
+    border: none;
+}
+
+.formaccount{
+    margin-top: 20px;
+}
+
+.formaccount label{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.account-btn{
+    width: 180px;
+    height: 50px;
+    margin-left: 360px;
+}
+
+.account-btn a{
+    margin-right: 20px;
+}
+
+/* Footer Styles*/
+
+/* Footer Section*/
+.footer{
+    background: rgba(56, 26, 66, 1);
+    min-width: 1140px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-content{
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.footer-content ul{
+    gap: 30px;
+}
+
+ul li a{
+    transition: 0.5s;
+}
+
+.footer-content ul li:hover a{
+    color: #ff4d00;
+}
+
+.footer-content ul li a{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-content h4{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-down{
+    gap: 10px;
+}
+
+.footer-down p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-content > p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
